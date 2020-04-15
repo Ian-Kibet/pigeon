@@ -1,18 +1,7 @@
-import Vue from 'vue'
-import store from '~/store'
-import router from '~/router'
-import i18n from '~/plugins/i18n'
-import App from '~/components/App'
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
 
-import '~/plugins'
-import '~/components'
-
-Vue.config.productionTip = false
-
-/* eslint-disable no-new */
-new Vue({
-  i18n,
-  store,
-  router,
-  ...App
-})
+import './src/main.js'

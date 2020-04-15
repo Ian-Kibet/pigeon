@@ -12,5 +12,5 @@
 */
 
 Route::get('{path}', function () {
-    return view('index');
+    return view('application');
 })->where('path', '(.*)');
